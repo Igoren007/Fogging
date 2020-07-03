@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min.scss';
+//@import 'libs/font';
+@import 'base/variables';
+
+* {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    position: relative;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/title.scss';
+//@import 'base/media.scss';

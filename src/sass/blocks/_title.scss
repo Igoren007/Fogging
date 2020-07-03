@@ -1,0 +1,11 @@
+.title {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 66px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0E0E11;
+    & span {
+        color: #00955F;
+    }
+}

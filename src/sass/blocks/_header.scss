@@ -1,0 +1,115 @@
+.header{
+    min-height: 367px;
+    padding: 30px 0;
+    &__header{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    &__info{
+        
+    }
+    &__info-mail{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #0E0E11;
+        opacity: 0.8;
+        text-align: right;
+    }
+    &__info-phone{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: #0E0E11;
+    }
+    &__links{
+       // padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__links-item{
+        font-size: 40px;
+    }
+    &__logo{
+        flex-grow: 0;
+    }
+    &__logo-boy{
+
+    }
+    &__logo-droplet{
+
+    }
+    &__menu{
+
+    }
+    &__menu-items{
+        display: flex;
+        list-style-type: none;
+    }
+    &__menu-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0E0E11;
+        opacity: 0.2;
+        margin: 0 15px;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--active {
+            color: #0E0E11;
+            opacity: 1;
+        }
+    }
+    &__name{
+
+    }
+    &__name-down{
+        color: #00cdff;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: -0.1px;
+    }
+    &__name-up{
+        color: #0397fa;
+        font-weight: 700;
+        font-size: 26px;
+        text-transform: uppercase;
+        word-spacing: 10px;
+    }
+    &__subtitle{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #0E0E11;
+        opacity: 0.8;
+    }
+    &__title-wrap {
+
+    }
+    &__title{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__title-main {
+        margin-top: 15px;
+        display: inline;
+    }
+    &__up{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+}
